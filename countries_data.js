@@ -1,4 +1,4 @@
-const countries_data = [
+countries_data = [
   {
     "name": "Afghanistan",
     "iso3": "AFG",
@@ -2490,6 +2490,15 @@ const countries_data = [
     "states": []
   },
   {
+    "name": "British Virgin Islands",
+    "iso3": "VGB",
+    "iso2": "VG",
+    "dialing_code_1": "+1-284",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
+  },
+  {
     "name": "Brunei",
     "iso3": "BRN",
     "iso2": "BN",
@@ -3270,6 +3279,28 @@ const countries_data = [
     ]
   },
   {
+    "name": "Caribbean Netherlands",
+    "iso3": "BES",
+    "iso2": "BQ",
+    "dialing_code_1": "+599",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Bonaire",
+        "state_code": "BON"
+      },
+      {
+        "name": "Sint Eustatius",
+        "state_code": "BES"
+      },
+      {
+        "name": "Saba",
+        "state_code": "SAB"
+      }
+    ]
+  },
+  {
     "name": "Cayman Islands",
     "iso3": "CYM",
     "iso2": "KY",
@@ -3857,186 +3888,6 @@ const countries_data = [
     ]
   },
   {
-    "name": "Republic of the Congo",
-    "iso3": "COG",
-    "iso2": "CG",
-    "dialing_code_1": "+242",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Bouenza Department",
-        "state_code": "11"
-      },
-      {
-        "name": "Brazzaville",
-        "state_code": "BZV"
-      },
-      {
-        "name": "Cuvette Department",
-        "state_code": "8"
-      },
-      {
-        "name": "Cuvette-Ouest Department",
-        "state_code": "15"
-      },
-      {
-        "name": "Kouilou Department",
-        "state_code": "5"
-      },
-      {
-        "name": "Lékoumou Department",
-        "state_code": "2"
-      },
-      {
-        "name": "Likouala Department",
-        "state_code": "7"
-      },
-      {
-        "name": "Niari Department",
-        "state_code": "9"
-      },
-      {
-        "name": "Plateaux Department",
-        "state_code": "14"
-      },
-      {
-        "name": "Pointe-Noire",
-        "state_code": "16"
-      },
-      {
-        "name": "Pool Department",
-        "state_code": "12"
-      },
-      {
-        "name": "Sangha Department",
-        "state_code": "13"
-      }
-    ]
-  },
-  {
-    "name": "Democratic Republic of the Congo",
-    "iso3": "COD",
-    "iso2": "CD",
-    "dialing_code_1": "+243",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Bandundu Province",
-        "state_code": "BN"
-      },
-      {
-        "name": "Bas-Congo province",
-        "state_code": "BC"
-      },
-      {
-        "name": "Bas-Uele",
-        "state_code": "BU"
-      },
-      {
-        "name": "Équateur",
-        "state_code": "EQ"
-      },
-      {
-        "name": "Haut-Katanga Province",
-        "state_code": "HK"
-      },
-      {
-        "name": "Haut-Lomami District",
-        "state_code": "HL"
-      },
-      {
-        "name": "Haut-Uele",
-        "state_code": "HU"
-      },
-      {
-        "name": "Ituri Interim Administration",
-        "state_code": "IT"
-      },
-      {
-        "name": "Kasaï District",
-        "state_code": "KS"
-      },
-      {
-        "name": "Kasaï-Occidental",
-        "state_code": "KW"
-      },
-      {
-        "name": "Kasaï-Oriental",
-        "state_code": "KE"
-      },
-      {
-        "name": "Katanga Province",
-        "state_code": "KA"
-      },
-      {
-        "name": "Kinshasa",
-        "state_code": "KN"
-      },
-      {
-        "name": "Kwango District",
-        "state_code": "KG"
-      },
-      {
-        "name": "Kwilu District",
-        "state_code": "KL"
-      },
-      {
-        "name": "Lomami Province",
-        "state_code": "LO"
-      },
-      {
-        "name": "Mai-Ndombe Province",
-        "state_code": "MN"
-      },
-      {
-        "name": "Maniema",
-        "state_code": "MA"
-      },
-      {
-        "name": "Mongala District",
-        "state_code": "MO"
-      },
-      {
-        "name": "Nord-Ubangi District",
-        "state_code": "NU"
-      },
-      {
-        "name": "North Kivu",
-        "state_code": "NK"
-      },
-      {
-        "name": "Orientale Province",
-        "state_code": "OR"
-      },
-      {
-        "name": "Sankuru District",
-        "state_code": "SA"
-      },
-      {
-        "name": "South Kivu",
-        "state_code": "SK"
-      },
-      {
-        "name": "Sud-Ubangi",
-        "state_code": "SU"
-      },
-      {
-        "name": "Tanganyika Province",
-        "state_code": "TA"
-      },
-      {
-        "name": "Tshopo District",
-        "state_code": "TO"
-      },
-      {
-        "name": "Tshuapa District",
-        "state_code": "TU"
-      }
-    ]
-  },
-  {
     "name": "Cook Islands",
     "iso3": "COK",
     "iso2": "CK",
@@ -4380,6 +4231,15 @@ const countries_data = [
         "state_code": "05"
       }
     ]
+  },
+  {
+    "name": "Curacao",
+    "iso3": "CUW",
+    "iso2": "CW",
+    "dialing_code_1": "+599",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
   },
   {
     "name": "Cyprus",
@@ -4854,6 +4714,128 @@ const countries_data = [
     ]
   },
   {
+    "name": "Democratic Republic of the Congo",
+    "iso3": "COD",
+    "iso2": "CD",
+    "dialing_code_1": "+243",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Bandundu Province",
+        "state_code": "BN"
+      },
+      {
+        "name": "Bas-Congo province",
+        "state_code": "BC"
+      },
+      {
+        "name": "Bas-Uele",
+        "state_code": "BU"
+      },
+      {
+        "name": "Équateur",
+        "state_code": "EQ"
+      },
+      {
+        "name": "Haut-Katanga Province",
+        "state_code": "HK"
+      },
+      {
+        "name": "Haut-Lomami District",
+        "state_code": "HL"
+      },
+      {
+        "name": "Haut-Uele",
+        "state_code": "HU"
+      },
+      {
+        "name": "Ituri Interim Administration",
+        "state_code": "IT"
+      },
+      {
+        "name": "Kasaï District",
+        "state_code": "KS"
+      },
+      {
+        "name": "Kasaï-Occidental",
+        "state_code": "KW"
+      },
+      {
+        "name": "Kasaï-Oriental",
+        "state_code": "KE"
+      },
+      {
+        "name": "Katanga Province",
+        "state_code": "KA"
+      },
+      {
+        "name": "Kinshasa",
+        "state_code": "KN"
+      },
+      {
+        "name": "Kwango District",
+        "state_code": "KG"
+      },
+      {
+        "name": "Kwilu District",
+        "state_code": "KL"
+      },
+      {
+        "name": "Lomami Province",
+        "state_code": "LO"
+      },
+      {
+        "name": "Mai-Ndombe Province",
+        "state_code": "MN"
+      },
+      {
+        "name": "Maniema",
+        "state_code": "MA"
+      },
+      {
+        "name": "Mongala District",
+        "state_code": "MO"
+      },
+      {
+        "name": "Nord-Ubangi District",
+        "state_code": "NU"
+      },
+      {
+        "name": "North Kivu",
+        "state_code": "NK"
+      },
+      {
+        "name": "Orientale Province",
+        "state_code": "OR"
+      },
+      {
+        "name": "Sankuru District",
+        "state_code": "SA"
+      },
+      {
+        "name": "South Kivu",
+        "state_code": "SK"
+      },
+      {
+        "name": "Sud-Ubangi",
+        "state_code": "SU"
+      },
+      {
+        "name": "Tanganyika Province",
+        "state_code": "TA"
+      },
+      {
+        "name": "Tshopo District",
+        "state_code": "TO"
+      },
+      {
+        "name": "Tshuapa District",
+        "state_code": "TU"
+      }
+    ]
+  },
+  {
     "name": "Denmark",
     "iso3": "DNK",
     "iso2": "DK",
@@ -5098,64 +5080,6 @@ const countries_data = [
       {
         "name": "Valverde Province",
         "state_code": "27"
-      }
-    ]
-  },
-  {
-    "name": "Timor Leste",
-    "iso3": "TLS",
-    "iso2": "TL",
-    "dialing_code_1": "+670",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Aileu municipality",
-        "state_code": "AL"
-      },
-      {
-        "name": "Ainaro Municipality",
-        "state_code": "AN"
-      },
-      {
-        "name": "Baucau Municipality",
-        "state_code": "BA"
-      },
-      {
-        "name": "Bobonaro Municipality",
-        "state_code": "BO"
-      },
-      {
-        "name": "Cova Lima Municipality",
-        "state_code": "CO"
-      },
-      {
-        "name": "Dili municipality",
-        "state_code": "DI"
-      },
-      {
-        "name": "Ermera District",
-        "state_code": "ER"
-      },
-      {
-        "name": "Lautém Municipality",
-        "state_code": "LA"
-      },
-      {
-        "name": "Liquiçá Municipality",
-        "state_code": "LI"
-      },
-      {
-        "name": "Manatuto District",
-        "state_code": "MT"
-      },
-      {
-        "name": "Manufahi Municipality",
-        "state_code": "MF"
-      },
-      {
-        "name": "Viqueque Municipality",
-        "state_code": "VI"
       }
     ]
   },
@@ -5438,6 +5362,208 @@ const countries_data = [
       {
         "name": "Usulután Department",
         "state_code": "US"
+      }
+    ]
+  },
+  {
+    "name": "England",
+    "iso3": "GBR",
+    "iso2": "GB",
+    "dialing_code_1": "+44",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Bedfordshire",
+        "state_code": "BDF"
+      },
+      {
+        "name": "Berkshire",
+        "state_code": "BRK"
+      },
+      {
+        "name": "Bristol",
+        "state_code": "BST"
+      },
+      {
+        "name": "Buckinghamshire",
+        "state_code": "BKM"
+      },
+      {
+        "name": "Cambridgeshire",
+        "state_code": "CAM"
+      },
+      {
+        "name": "Cheshire",
+        "state_code": "CHS"
+      },
+      {
+        "name": "City of London",
+        "state_code": "LON"
+      },
+      {
+        "name": "Cornwall",
+        "state_code": "CON"
+      },
+      {
+        "name": "Cumbria",
+        "state_code": "CMA"
+      },
+      {
+        "name": "Derbyshire",
+        "state_code": "DBY"
+      },
+      {
+        "name": "Devon",
+        "state_code": "DEV"
+      },
+      {
+        "name": "Dorset",
+        "state_code": "DOR"
+      },
+      {
+        "name": "Durham",
+        "state_code": "DUR"
+      },
+      {
+        "name": "East Sussex",
+        "state_code": "ESX"
+      },
+      {
+        "name": "Essex",
+        "state_code": "ESS"
+      },
+      {
+        "name": "Gloucestershire",
+        "state_code": "GLS"
+      },
+      {
+        "name": "Greater London",
+        "state_code": "GLA"
+      },
+      {
+        "name": "Greater Manchester",
+        "state_code": "MAN"
+      },
+      {
+        "name": "Hampshire",
+        "state_code": "HAM"
+      },
+      {
+        "name": "Herefordshire",
+        "state_code": "HEF"
+      },
+      {
+        "name": "Hertfordshire",
+        "state_code": "HRT"
+      },
+      {
+        "name": "Huntingdonshire",
+        "state_code": "HUN"
+      },
+      {
+        "name": "Isle of Wight",
+        "state_code": "IOW"
+      },
+      {
+        "name": "Kent",
+        "state_code": "KEN"
+      },
+      {
+        "name": "Lancashire",
+        "state_code": "LAN"
+      },
+      {
+        "name": "Leicestershire",
+        "state_code": "LEI"
+      },
+      {
+        "name": "Lincolnshire",
+        "state_code": "LIN"
+      },
+      {
+        "name": "Merseyside",
+        "state_code": "MSY"
+      },
+      {
+        "name": "Norfolk",
+        "state_code": "NFK"
+      },
+      {
+        "name": "Northamptonshire",
+        "state_code": "NTH"
+      },
+      {
+        "name": "Northumberland",
+        "state_code": "NBL"
+      },
+      {
+        "name": "North Yorkshire",
+        "state_code": "NYK"
+      },
+      {
+        "name": "Nottinghamshire",
+        "state_code": "NTT"
+      },
+      {
+        "name": "Oxfordshire",
+        "state_code": "OXF"
+      },
+      {
+        "name": "Rutland",
+        "state_code": "RUT"
+      },
+      {
+        "name": "Shropshire",
+        "state_code": "SHR"
+      },
+      {
+        "name": "Somerset",
+        "state_code": "SOM"
+      },
+      {
+        "name": "South Yorkshire",
+        "state_code": "SYK"
+      },
+      {
+        "name": "Staffordshire",
+        "state_code": "STS"
+      },
+      {
+        "name": "Suffolk",
+        "state_code": "SFK"
+      },
+      {
+        "name": "Surrey",
+        "state_code": "SRY"
+      },
+      {
+        "name": "Tyne and Wear",
+        "state_code": "TWH"
+      },
+      {
+        "name": "Warwickshire",
+        "state_code": "WAR"
+      },
+      {
+        "name": "West Midlands",
+        "state_code": "WMD"
+      },
+      {
+        "name": "West Sussex",
+        "state_code": "WSX"
+      },
+      {
+        "name": "West Yorkshire",
+        "state_code": "WYK"
+      },
+      {
+        "name": "Wiltshire",
+        "state_code": "WIL"
+      },
+      {
+        "name": "Worcestershire",
+        "state_code": "WOR"
       }
     ]
   },
@@ -6022,6 +6148,15 @@ const countries_data = [
     ]
   },
   {
+    "name": "French Guiana",
+    "iso3": "GUF",
+    "iso2": "GF",
+    "dialing_code_1": "+594",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
+  },
+  {
     "name": "French Polynesia",
     "iso3": "PYF",
     "iso2": "PF",
@@ -6029,6 +6164,36 @@ const countries_data = [
     "dialing_code_2": "",
     "dialing_code_3": "",
     "states": []
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "iso3": "ATF",
+    "iso2": "TF",
+    "dialing_code_1": "+262",
+    "dialing_code_2": "+33",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Amsterdam Island",
+        "state_code": "AT1"
+      },
+      {
+        "name": "Crozet Islands",
+        "state_code": "AT2"
+      },
+      {
+        "name": "Kerguelen Islands",
+        "state_code": "AT3"
+      },
+      {
+        "name": "Saint-Paul and Amsterdam Islands",
+        "state_code": "AT4"
+      },
+      {
+        "name": "Adélie Land",
+        "state_code": "AT5"
+      }
+    ]
   },
   {
     "name": "Gabon",
@@ -7055,6 +7220,15 @@ const countries_data = [
     ]
   },
   {
+    "name": "Hong Kong",
+    "iso3": "HKG",
+    "iso2": "HK",
+    "dialing_code_1": "+852",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
+  },
+  {
     "name": "Hungary",
     "iso3": "HUN",
     "iso2": "HU",
@@ -7931,6 +8105,15 @@ const countries_data = [
         "state_code": "U"
       }
     ]
+  },
+  {
+    "name": "Isle of Man",
+    "iso3": "IMN",
+    "iso2": "IM",
+    "dialing_code_1": "+44",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
   },
   {
     "name": "Israel",
@@ -9138,138 +9321,6 @@ const countries_data = [
       {
         "name": "Phoenix Islands",
         "state_code": "P"
-      }
-    ]
-  },
-  {
-    "name": "North Korea",
-    "iso3": "PRK",
-    "iso2": "KP",
-    "dialing_code_1": "+850",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Chagang Province",
-        "state_code": "04"
-      },
-      {
-        "name": "Kangwon Province",
-        "state_code": "07"
-      },
-      {
-        "name": "North Hamgyong Province",
-        "state_code": "09"
-      },
-      {
-        "name": "North Hwanghae Province",
-        "state_code": "06"
-      },
-      {
-        "name": "North Pyongan Province",
-        "state_code": "03"
-      },
-      {
-        "name": "Pyongyang",
-        "state_code": "01"
-      },
-      {
-        "name": "Rason",
-        "state_code": "13"
-      },
-      {
-        "name": "Ryanggang Province",
-        "state_code": "10"
-      },
-      {
-        "name": "South Hamgyong Province",
-        "state_code": "08"
-      },
-      {
-        "name": "South Hwanghae Province",
-        "state_code": "05"
-      },
-      {
-        "name": "South Pyongan Province",
-        "state_code": "02"
-      }
-    ]
-  },
-  {
-    "name": "South Korea",
-    "iso3": "KOR",
-    "iso2": "KR",
-    "dialing_code_1": "+82",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Busan",
-        "state_code": "26"
-      },
-      {
-        "name": "Daegu",
-        "state_code": "27"
-      },
-      {
-        "name": "Daejeon",
-        "state_code": "30"
-      },
-      {
-        "name": "Gangwon Province",
-        "state_code": "42"
-      },
-      {
-        "name": "Gwangju",
-        "state_code": "29"
-      },
-      {
-        "name": "Gyeonggi Province",
-        "state_code": "41"
-      },
-      {
-        "name": "Incheon",
-        "state_code": "28"
-      },
-      {
-        "name": "Jeju",
-        "state_code": "49"
-      },
-      {
-        "name": "North Chungcheong Province",
-        "state_code": "43"
-      },
-      {
-        "name": "North Gyeongsang Province",
-        "state_code": "47"
-      },
-      {
-        "name": "North Jeolla Province",
-        "state_code": "45"
-      },
-      {
-        "name": "Sejong City",
-        "state_code": "50"
-      },
-      {
-        "name": "Seoul",
-        "state_code": "11"
-      },
-      {
-        "name": "South Chungcheong Province",
-        "state_code": "44"
-      },
-      {
-        "name": "South Gyeongsang Province",
-        "state_code": "48"
-      },
-      {
-        "name": "South Jeolla Province",
-        "state_code": "46"
-      },
-      {
-        "name": "Ulsan",
-        "state_code": "31"
       }
     ]
   },
@@ -10624,6 +10675,15 @@ const countries_data = [
         "state_code": "L"
       }
     ]
+  },
+  {
+    "name": "Macau",
+    "iso3": "MAC",
+    "iso2": "MO",
+    "dialing_code_1": "+853",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
   },
   {
     "name": "Macedonia",
@@ -12968,28 +13028,6 @@ const countries_data = [
     ]
   },
   {
-    "name": "Netherlands Antilles",
-    "iso3": "ANT",
-    "iso2": "AN",
-    "dialing_code_1": "+599",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Bonaire",
-        "state_code": "BQ1"
-      },
-      {
-        "name": "Saba",
-        "state_code": "BQ2"
-      },
-      {
-        "name": "Sint Eustatius",
-        "state_code": "BQ3"
-      }
-    ]
-  },
-  {
     "name": "Netherlands",
     "iso3": "NLD",
     "iso2": "NL",
@@ -13044,6 +13082,28 @@ const countries_data = [
       {
         "name": "Zeeland",
         "state_code": "ZE"
+      }
+    ]
+  },
+  {
+    "name": "Netherlands Antilles",
+    "iso3": "ANT",
+    "iso2": "AN",
+    "dialing_code_1": "+599",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Bonaire",
+        "state_code": "BQ1"
+      },
+      {
+        "name": "Saba",
+        "state_code": "BQ2"
+      },
+      {
+        "name": "Sint Eustatius",
+        "state_code": "BQ3"
       }
     ]
   },
@@ -13419,6 +13479,94 @@ const countries_data = [
     "states": []
   },
   {
+    "name": "North Korea",
+    "iso3": "PRK",
+    "iso2": "KP",
+    "dialing_code_1": "+850",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Chagang Province",
+        "state_code": "04"
+      },
+      {
+        "name": "Kangwon Province",
+        "state_code": "07"
+      },
+      {
+        "name": "North Hamgyong Province",
+        "state_code": "09"
+      },
+      {
+        "name": "North Hwanghae Province",
+        "state_code": "06"
+      },
+      {
+        "name": "North Pyongan Province",
+        "state_code": "03"
+      },
+      {
+        "name": "Pyongyang",
+        "state_code": "01"
+      },
+      {
+        "name": "Rason",
+        "state_code": "13"
+      },
+      {
+        "name": "Ryanggang Province",
+        "state_code": "10"
+      },
+      {
+        "name": "South Hamgyong Province",
+        "state_code": "08"
+      },
+      {
+        "name": "South Hwanghae Province",
+        "state_code": "05"
+      },
+      {
+        "name": "South Pyongan Province",
+        "state_code": "02"
+      }
+    ]
+  },
+  {
+    "name": "Northern Ireland",
+    "iso3": "GBR",
+    "iso2": "GB",
+    "dialing_code_1": "+44",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Antrim",
+        "state_code": "ANT"
+      },
+      {
+        "name": "Armagh",
+        "state_code": "ARM"
+      },
+      {
+        "name": "Down",
+        "state_code": "DOW"
+      },
+      {
+        "name": "Fermanagh",
+        "state_code": "FER"
+      },
+      {
+        "name": "Londonderry",
+        "state_code": "LDY"
+      },
+      {
+        "name": "Tyrone",
+        "state_code": "TYR"
+      }
+    ]
+  },
+  {
     "name": "Northern Mariana Islands",
     "iso3": "MNP",
     "iso2": "MP",
@@ -13696,6 +13844,24 @@ const countries_data = [
       {
         "name": "Sonsorol",
         "state_code": "370"
+      }
+    ]
+  },
+  {
+    "name": "Palestine",
+    "iso3": "PSE",
+    "iso2": "PS",
+    "dialing_code_1": "+970",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "West Bank",
+        "state_code": "WB"
+      },
+      {
+        "name": "Gaza Strip",
+        "state_code": "GZ"
       }
     ]
   },
@@ -14438,6 +14604,15 @@ const countries_data = [
     ]
   },
   {
+    "name": "Pitcairn Islands",
+    "iso3": "PCN",
+    "iso2": "PN",
+    "dialing_code_1": "+64",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
+  },
+  {
     "name": "Poland",
     "iso3": "POL",
     "iso2": "PL",
@@ -14655,6 +14830,73 @@ const countries_data = [
         "state_code": "US"
       }
     ]
+  },
+  {
+    "name": "Republic of the Congo",
+    "iso3": "COG",
+    "iso2": "CG",
+    "dialing_code_1": "+242",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Bouenza Department",
+        "state_code": "11"
+      },
+      {
+        "name": "Brazzaville",
+        "state_code": "BZV"
+      },
+      {
+        "name": "Cuvette Department",
+        "state_code": "8"
+      },
+      {
+        "name": "Cuvette-Ouest Department",
+        "state_code": "15"
+      },
+      {
+        "name": "Kouilou Department",
+        "state_code": "5"
+      },
+      {
+        "name": "Lékoumou Department",
+        "state_code": "2"
+      },
+      {
+        "name": "Likouala Department",
+        "state_code": "7"
+      },
+      {
+        "name": "Niari Department",
+        "state_code": "9"
+      },
+      {
+        "name": "Plateaux Department",
+        "state_code": "14"
+      },
+      {
+        "name": "Pointe-Noire",
+        "state_code": "16"
+      },
+      {
+        "name": "Pool Department",
+        "state_code": "12"
+      },
+      {
+        "name": "Sangha Department",
+        "state_code": "13"
+      }
+    ]
+  },
+  {
+    "name": "Reunion",
+    "iso3": "REU",
+    "iso2": "RE",
+    "dialing_code_1": "+262",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
   },
   {
     "name": "Romania",
@@ -15203,6 +15445,37 @@ const countries_data = [
     ]
   },
   {
+    "name": "Saint Barthelemy",
+    "iso3": "BLM",
+    "iso2": "BL",
+    "dialing_code_1": "+590",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
+  },
+  {
+    "name": "Saint Helena",
+    "iso3": "SHN",
+    "iso2": "SH",
+    "dialing_code_1": "+290",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Saint Helena",
+        "state_code": "SH-SH"
+      },
+      {
+        "name": "Ascension Island",
+        "state_code": "SH-AC"
+      },
+      {
+        "name": "Tristan da Cunha",
+        "state_code": "SH-TA"
+      }
+    ]
+  },
+  {
     "name": "Saint Kitts And Nevis",
     "iso3": "KNA",
     "iso2": "KN",
@@ -15329,6 +15602,15 @@ const countries_data = [
         "state_code": "11"
       }
     ]
+  },
+  {
+    "name": "Saint Martin",
+    "iso3": "MAF",
+    "iso2": "MF",
+    "dialing_code_1": "+590",
+    "dialing_code_2": "+1-721",
+    "dialing_code_3": "",
+    "states": []
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -15550,6 +15832,140 @@ const countries_data = [
       {
         "name": "Tabuk Region",
         "state_code": "07"
+      }
+    ]
+  },
+  {
+    "name": "Scotland",
+    "iso3": "GBR",
+    "iso2": "GB",
+    "dialing_code_1": "+44",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Aberdeenshire",
+        "state_code": "ABD"
+      },
+      {
+        "name": "Angus",
+        "state_code": "ANS"
+      },
+      {
+        "name": "Argyll and Bute",
+        "state_code": "AGB"
+      },
+      {
+        "name": "Clackmannanshire",
+        "state_code": "CLK"
+      },
+      {
+        "name": "Dumfries and Galloway",
+        "state_code": "DGY"
+      },
+      {
+        "name": "Dundee City",
+        "state_code": "DND"
+      },
+      {
+        "name": "East Ayrshire",
+        "state_code": "EAY"
+      },
+      {
+        "name": "East Dunbartonshire",
+        "state_code": "EDU"
+      },
+      {
+        "name": "East Lothian",
+        "state_code": "ELN"
+      },
+      {
+        "name": "East Renfrewshire",
+        "state_code": "ERW"
+      },
+      {
+        "name": "Edinburgh",
+        "state_code": "EDH"
+      },
+      {
+        "name": "Eilean Siar",
+        "state_code": "ELS"
+      },
+      {
+        "name": "Falkirk",
+        "state_code": "FAL"
+      },
+      {
+        "name": "Fife",
+        "state_code": "FIF"
+      },
+      {
+        "name": "Glasgow City",
+        "state_code": "GLG"
+      },
+      {
+        "name": "Highland",
+        "state_code": "HLD"
+      },
+      {
+        "name": "Inverclyde",
+        "state_code": "IVC"
+      },
+      {
+        "name": "Midlothian",
+        "state_code": "MLN"
+      },
+      {
+        "name": "Moray",
+        "state_code": "MRY"
+      },
+      {
+        "name": "North Ayrshire",
+        "state_code": "NAY"
+      },
+      {
+        "name": "North Lanarkshire",
+        "state_code": "NLK"
+      },
+      {
+        "name": "Orkney Islands",
+        "state_code": "ORK"
+      },
+      {
+        "name": "Perth and Kinross",
+        "state_code": "PKN"
+      },
+      {
+        "name": "Renfrewshire",
+        "state_code": "RFW"
+      },
+      {
+        "name": "Scottish Borders",
+        "state_code": "SCB"
+      },
+      {
+        "name": "Shetland Islands",
+        "state_code": "ZET"
+      },
+      {
+        "name": "South Ayrshire",
+        "state_code": "SAY"
+      },
+      {
+        "name": "South Lanarkshire",
+        "state_code": "SLK"
+      },
+      {
+        "name": "Stirling",
+        "state_code": "STG"
+      },
+      {
+        "name": "West Dunbartonshire",
+        "state_code": "WDU"
+      },
+      {
+        "name": "West Lothian",
+        "state_code": "WLN"
       }
     ]
   },
@@ -15894,6 +16310,15 @@ const countries_data = [
         "state_code": "05"
       }
     ]
+  },
+  {
+    "name": "Sint Maarten",
+    "iso3": "SXM",
+    "iso2": "SX",
+    "dialing_code_1": "+1-721",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
   },
   {
     "name": "Slovakia",
@@ -16962,6 +17387,93 @@ const countries_data = [
     ]
   },
   {
+    "name": "South Georgia",
+    "iso3": "SGS",
+    "iso2": "GS",
+    "dialing_code_1": "+500",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
+  },
+  {
+    "name": "South Korea",
+    "iso3": "KOR",
+    "iso2": "KR",
+    "dialing_code_1": "+82",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Busan",
+        "state_code": "26"
+      },
+      {
+        "name": "Daegu",
+        "state_code": "27"
+      },
+      {
+        "name": "Daejeon",
+        "state_code": "30"
+      },
+      {
+        "name": "Gangwon Province",
+        "state_code": "42"
+      },
+      {
+        "name": "Gwangju",
+        "state_code": "29"
+      },
+      {
+        "name": "Gyeonggi Province",
+        "state_code": "41"
+      },
+      {
+        "name": "Incheon",
+        "state_code": "28"
+      },
+      {
+        "name": "Jeju",
+        "state_code": "49"
+      },
+      {
+        "name": "North Chungcheong Province",
+        "state_code": "43"
+      },
+      {
+        "name": "North Gyeongsang Province",
+        "state_code": "47"
+      },
+      {
+        "name": "North Jeolla Province",
+        "state_code": "45"
+      },
+      {
+        "name": "Sejong City",
+        "state_code": "50"
+      },
+      {
+        "name": "Seoul",
+        "state_code": "11"
+      },
+      {
+        "name": "South Chungcheong Province",
+        "state_code": "44"
+      },
+      {
+        "name": "South Gyeongsang Province",
+        "state_code": "48"
+      },
+      {
+        "name": "South Jeolla Province",
+        "state_code": "46"
+      },
+      {
+        "name": "Ulsan",
+        "state_code": "31"
+      }
+    ]
+  },
+  {
     "name": "South Sudan",
     "iso3": "SSD",
     "iso2": "SS",
@@ -17550,6 +18062,15 @@ const countries_data = [
         "state_code": "WA"
       }
     ]
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "iso3": "SJM",
+    "iso2": "SJ",
+    "dialing_code_1": "+47",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
   },
   {
     "name": "Swaziland",
@@ -18416,6 +18937,64 @@ const countries_data = [
       {
         "name": "Yasothon",
         "state_code": "35"
+      }
+    ]
+  },
+  {
+    "name": "Timor Leste",
+    "iso3": "TLS",
+    "iso2": "TL",
+    "dialing_code_1": "+670",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Aileu municipality",
+        "state_code": "AL"
+      },
+      {
+        "name": "Ainaro Municipality",
+        "state_code": "AN"
+      },
+      {
+        "name": "Baucau Municipality",
+        "state_code": "BA"
+      },
+      {
+        "name": "Bobonaro Municipality",
+        "state_code": "BO"
+      },
+      {
+        "name": "Cova Lima Municipality",
+        "state_code": "CO"
+      },
+      {
+        "name": "Dili municipality",
+        "state_code": "DI"
+      },
+      {
+        "name": "Ermera District",
+        "state_code": "ER"
+      },
+      {
+        "name": "Lautém Municipality",
+        "state_code": "LA"
+      },
+      {
+        "name": "Liquiçá Municipality",
+        "state_code": "LI"
+      },
+      {
+        "name": "Manatuto District",
+        "state_code": "MT"
+      },
+      {
+        "name": "Manufahi Municipality",
+        "state_code": "MF"
+      },
+      {
+        "name": "Viqueque Municipality",
+        "state_code": "VI"
       }
     ]
   },
@@ -21023,6 +21602,15 @@ const countries_data = [
     "states": []
   },
   {
+    "name": "United States Virgin Islands",
+    "iso3": "VIR",
+    "iso2": "VI",
+    "dialing_code_1": "+1-340",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
+  },
+  {
     "name": "Uruguay",
     "iso3": "URY",
     "iso2": "UY",
@@ -21207,6 +21795,15 @@ const countries_data = [
         "state_code": "TOB"
       }
     ]
+  },
+  {
+    "name": "Vatican City",
+    "iso3": "VAT",
+    "iso2": "VA",
+    "dialing_code_1": "+39",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": []
   },
   {
     "name": "Venezuela",
@@ -21581,6 +22178,104 @@ const countries_data = [
     ]
   },
   {
+    "name": "Wales",
+    "iso3": "GBR",
+    "iso2": "GB",
+    "dialing_code_1": "+44",
+    "dialing_code_2": "",
+    "dialing_code_3": "",
+    "states": [
+      {
+        "name": "Blaenau Gwent",
+        "state_code": "BGW"
+      },
+      {
+        "name": "Bridgend",
+        "state_code": "BGE"
+      },
+      {
+        "name": "Caerphilly",
+        "state_code": "CAY"
+      },
+      {
+        "name": "Cardiff",
+        "state_code": "CRF"
+      },
+      {
+        "name": "Carmarthenshire",
+        "state_code": "CMN"
+      },
+      {
+        "name": "Ceredigion",
+        "state_code": "CGN"
+      },
+      {
+        "name": "Conwy",
+        "state_code": "CWY"
+      },
+      {
+        "name": "Denbighshire",
+        "state_code": "DEN"
+      },
+      {
+        "name": "Flintshire",
+        "state_code": "FLN"
+      },
+      {
+        "name": "Gwynedd",
+        "state_code": "GWN"
+      },
+      {
+        "name": "Isle of Anglesey",
+        "state_code": "AGY"
+      },
+      {
+        "name": "Merthyr Tydfil",
+        "state_code": "MTY"
+      },
+      {
+        "name": "Monmouthshire",
+        "state_code": "MON"
+      },
+      {
+        "name": "Neath Port Talbot",
+        "state_code": "NTL"
+      },
+      {
+        "name": "Newport",
+        "state_code": "NWP"
+      },
+      {
+        "name": "Pembrokeshire",
+        "state_code": "PEM"
+      },
+      {
+        "name": "Powys",
+        "state_code": "POW"
+      },
+      {
+        "name": "Rhondda Cynon Taf",
+        "state_code": "RCT"
+      },
+      {
+        "name": "Swansea",
+        "state_code": "SWA"
+      },
+      {
+        "name": "Torfaen",
+        "state_code": "TOF"
+      },
+      {
+        "name": "Vale of Glamorgan",
+        "state_code": "VGL"
+      },
+      {
+        "name": "Wrexham",
+        "state_code": "WRX"
+      }
+    ]
+  },
+  {
     "name": "Wallis And Futuna",
     "iso3": "WLF",
     "iso2": "WF",
@@ -21789,701 +22484,6 @@ const countries_data = [
       {
         "name": "Midlands Province",
         "state_code": "MI"
-      }
-    ]
-  },
-  {
-    "name": "Caribbean Netherlands",
-    "iso3": "BES",
-    "iso2": "BQ",
-    "dialing_code_1": "+599",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Bonaire",
-        "state_code": "BON"
-      },
-      {
-        "name": "Sint Eustatius",
-        "state_code": "BES"
-      },
-      {
-        "name": "Saba",
-        "state_code": "SAB"
-      }
-    ]
-  },
-  {
-    "name": "Curacao",
-    "iso3": "CUW",
-    "iso2": "CW",
-    "dialing_code_1": "+599",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "England",
-    "iso3": "GBR",
-    "iso2": "GB",
-    "dialing_code_1": "+44",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Bedfordshire",
-        "state_code": "BDF"
-      },
-      {
-        "name": "Berkshire",
-        "state_code": "BRK"
-      },
-      {
-        "name": "Bristol",
-        "state_code": "BST"
-      },
-      {
-        "name": "Buckinghamshire",
-        "state_code": "BKM"
-      },
-      {
-        "name": "Cambridgeshire",
-        "state_code": "CAM"
-      },
-      {
-        "name": "Cheshire",
-        "state_code": "CHS"
-      },
-      {
-        "name": "City of London",
-        "state_code": "LON"
-      },
-      {
-        "name": "Cornwall",
-        "state_code": "CON"
-      },
-      {
-        "name": "Cumbria",
-        "state_code": "CMA"
-      },
-      {
-        "name": "Derbyshire",
-        "state_code": "DBY"
-      },
-      {
-        "name": "Devon",
-        "state_code": "DEV"
-      },
-      {
-        "name": "Dorset",
-        "state_code": "DOR"
-      },
-      {
-        "name": "Durham",
-        "state_code": "DUR"
-      },
-      {
-        "name": "East Sussex",
-        "state_code": "ESX"
-      },
-      {
-        "name": "Essex",
-        "state_code": "ESS"
-      },
-      {
-        "name": "Gloucestershire",
-        "state_code": "GLS"
-      },
-      {
-        "name": "Greater London",
-        "state_code": "GLA"
-      },
-      {
-        "name": "Greater Manchester",
-        "state_code": "MAN"
-      },
-      {
-        "name": "Hampshire",
-        "state_code": "HAM"
-      },
-      {
-        "name": "Herefordshire",
-        "state_code": "HEF"
-      },
-      {
-        "name": "Hertfordshire",
-        "state_code": "HRT"
-      },
-      {
-        "name": "Huntingdonshire",
-        "state_code": "HUN"
-      },
-      {
-        "name": "Isle of Wight",
-        "state_code": "IOW"
-      },
-      {
-        "name": "Kent",
-        "state_code": "KEN"
-      },
-      {
-        "name": "Lancashire",
-        "state_code": "LAN"
-      },
-      {
-        "name": "Leicestershire",
-        "state_code": "LEI"
-      },
-      {
-        "name": "Lincolnshire",
-        "state_code": "LIN"
-      },
-      {
-        "name": "Merseyside",
-        "state_code": "MSY"
-      },
-      {
-        "name": "Norfolk",
-        "state_code": "NFK"
-      },
-      {
-        "name": "Northamptonshire",
-        "state_code": "NTH"
-      },
-      {
-        "name": "Northumberland",
-        "state_code": "NBL"
-      },
-      {
-        "name": "North Yorkshire",
-        "state_code": "NYK"
-      },
-      {
-        "name": "Nottinghamshire",
-        "state_code": "NTT"
-      },
-      {
-        "name": "Oxfordshire",
-        "state_code": "OXF"
-      },
-      {
-        "name": "Rutland",
-        "state_code": "RUT"
-      },
-      {
-        "name": "Shropshire",
-        "state_code": "SHR"
-      },
-      {
-        "name": "Somerset",
-        "state_code": "SOM"
-      },
-      {
-        "name": "South Yorkshire",
-        "state_code": "SYK"
-      },
-      {
-        "name": "Staffordshire",
-        "state_code": "STS"
-      },
-      {
-        "name": "Suffolk",
-        "state_code": "SFK"
-      },
-      {
-        "name": "Surrey",
-        "state_code": "SRY"
-      },
-      {
-        "name": "Tyne and Wear",
-        "state_code": "TWH"
-      },
-      {
-        "name": "Warwickshire",
-        "state_code": "WAR"
-      },
-      {
-        "name": "West Midlands",
-        "state_code": "WMD"
-      },
-      {
-        "name": "West Sussex",
-        "state_code": "WSX"
-      },
-      {
-        "name": "West Yorkshire",
-        "state_code": "WYK"
-      },
-      {
-        "name": "Wiltshire",
-        "state_code": "WIL"
-      },
-      {
-        "name": "Worcestershire",
-        "state_code": "WOR"
-      }
-    ]
-  },
-  {
-    "name": "French Guiana",
-    "iso3": "GUF",
-    "iso2": "GF",
-    "dialing_code_1": "+594",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "French Southern and Antarctic Lands",
-    "iso3": "ATF",
-    "iso2": "TF",
-    "dialing_code_1": "+262",
-    "dialing_code_2": "+33",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Amsterdam Island",
-        "state_code": "AT1"
-      },
-      {
-        "name": "Crozet Islands",
-        "state_code": "AT2"
-      },
-      {
-        "name": "Kerguelen Islands",
-        "state_code": "AT3"
-      },
-      {
-        "name": "Saint-Paul and Amsterdam Islands",
-        "state_code": "AT4"
-      },
-      {
-        "name": "Adélie Land",
-        "state_code": "AT5"
-      }
-    ]
-  },
-  {
-    "name": "Hong Kong",
-    "iso3": "HKG",
-    "iso2": "HK",
-    "dialing_code_1": "+852",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Isle of Man",
-    "iso3": "IMN",
-    "iso2": "IM",
-    "dialing_code_1": "+44",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Macau",
-    "iso3": "MAC",
-    "iso2": "MO",
-    "dialing_code_1": "+853",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Northern Ireland",
-    "iso3": "GBR",
-    "iso2": "GB",
-    "dialing_code_1": "+44",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Antrim",
-        "state_code": "ANT"
-      },
-      {
-        "name": "Armagh",
-        "state_code": "ARM"
-      },
-      {
-        "name": "Down",
-        "state_code": "DOW"
-      },
-      {
-        "name": "Fermanagh",
-        "state_code": "FER"
-      },
-      {
-        "name": "Londonderry",
-        "state_code": "LDY"
-      },
-      {
-        "name": "Tyrone",
-        "state_code": "TYR"
-      }
-    ]
-  },
-  {
-    "name": "Palestine",
-    "iso3": "PSE",
-    "iso2": "PS",
-    "dialing_code_1": "+970",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "West Bank",
-        "state_code": "WB"
-      },
-      {
-        "name": "Gaza Strip",
-        "state_code": "GZ"
-      }
-    ]
-  },
-  {
-    "name": "Pitcairn Islands",
-    "iso3": "PCN",
-    "iso2": "PN",
-    "dialing_code_1": "+64",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Reunion",
-    "iso3": "REU",
-    "iso2": "RE",
-    "dialing_code_1": "+262",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Saint Barthelemy",
-    "iso3": "BLM",
-    "iso2": "BL",
-    "dialing_code_1": "+590",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Saint Martin",
-    "iso3": "MAF",
-    "iso2": "MF",
-    "dialing_code_1": "+590",
-    "dialing_code_2": "+1-721",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Scotland",
-    "iso3": "GBR",
-    "iso2": "GB",
-    "dialing_code_1": "+44",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Aberdeenshire",
-        "state_code": "ABD"
-      },
-      {
-        "name": "Angus",
-        "state_code": "ANS"
-      },
-      {
-        "name": "Argyll and Bute",
-        "state_code": "AGB"
-      },
-      {
-        "name": "Clackmannanshire",
-        "state_code": "CLK"
-      },
-      {
-        "name": "Dumfries and Galloway",
-        "state_code": "DGY"
-      },
-      {
-        "name": "Dundee City",
-        "state_code": "DND"
-      },
-      {
-        "name": "East Ayrshire",
-        "state_code": "EAY"
-      },
-      {
-        "name": "East Dunbartonshire",
-        "state_code": "EDU"
-      },
-      {
-        "name": "East Lothian",
-        "state_code": "ELN"
-      },
-      {
-        "name": "East Renfrewshire",
-        "state_code": "ERW"
-      },
-      {
-        "name": "Edinburgh",
-        "state_code": "EDH"
-      },
-      {
-        "name": "Eilean Siar",
-        "state_code": "ELS"
-      },
-      {
-        "name": "Falkirk",
-        "state_code": "FAL"
-      },
-      {
-        "name": "Fife",
-        "state_code": "FIF"
-      },
-      {
-        "name": "Glasgow City",
-        "state_code": "GLG"
-      },
-      {
-        "name": "Highland",
-        "state_code": "HLD"
-      },
-      {
-        "name": "Inverclyde",
-        "state_code": "IVC"
-      },
-      {
-        "name": "Midlothian",
-        "state_code": "MLN"
-      },
-      {
-        "name": "Moray",
-        "state_code": "MRY"
-      },
-      {
-        "name": "North Ayrshire",
-        "state_code": "NAY"
-      },
-      {
-        "name": "North Lanarkshire",
-        "state_code": "NLK"
-      },
-      {
-        "name": "Orkney Islands",
-        "state_code": "ORK"
-      },
-      {
-        "name": "Perth and Kinross",
-        "state_code": "PKN"
-      },
-      {
-        "name": "Renfrewshire",
-        "state_code": "RFW"
-      },
-      {
-        "name": "Scottish Borders",
-        "state_code": "SCB"
-      },
-      {
-        "name": "Shetland Islands",
-        "state_code": "ZET"
-      },
-      {
-        "name": "South Ayrshire",
-        "state_code": "SAY"
-      },
-      {
-        "name": "South Lanarkshire",
-        "state_code": "SLK"
-      },
-      {
-        "name": "Stirling",
-        "state_code": "STG"
-      },
-      {
-        "name": "West Dunbartonshire",
-        "state_code": "WDU"
-      },
-      {
-        "name": "West Lothian",
-        "state_code": "WLN"
-      }
-    ]
-  },
-  {
-    "name": "Saint Helena",
-    "iso3": "SHN",
-    "iso2": "SH",
-    "dialing_code_1": "+290",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Saint Helena",
-        "state_code": "SH-SH"
-      },
-      {
-        "name": "Ascension Island",
-        "state_code": "SH-AC"
-      },
-      {
-        "name": "Tristan da Cunha",
-        "state_code": "SH-TA"
-      }
-    ]
-  },
-  {
-    "name": "Sint Maarten",
-    "iso3": "SXM",
-    "iso2": "SX",
-    "dialing_code_1": "+1-721",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "South Georgia",
-    "iso3": "SGS",
-    "iso2": "GS",
-    "dialing_code_1": "+500",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Svalbard and Jan Mayen",
-    "iso3": "SJM",
-    "iso2": "SJ",
-    "dialing_code_1": "+47",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Vatican City",
-    "iso3": "VAT",
-    "iso2": "VA",
-    "dialing_code_1": "+39",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "British Virgin Islands",
-    "iso3": "VGB",
-    "iso2": "VG",
-    "dialing_code_1": "+1-284",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "United States Virgin Islands",
-    "iso3": "VIR",
-    "iso2": "VI",
-    "dialing_code_1": "+1-340",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": []
-  },
-  {
-    "name": "Wales",
-    "iso3": "GBR",
-    "iso2": "GB",
-    "dialing_code_1": "+44",
-    "dialing_code_2": "",
-    "dialing_code_3": "",
-    "states": [
-      {
-        "name": "Blaenau Gwent",
-        "state_code": "BGW"
-      },
-      {
-        "name": "Bridgend",
-        "state_code": "BGE"
-      },
-      {
-        "name": "Caerphilly",
-        "state_code": "CAY"
-      },
-      {
-        "name": "Cardiff",
-        "state_code": "CRF"
-      },
-      {
-        "name": "Carmarthenshire",
-        "state_code": "CMN"
-      },
-      {
-        "name": "Ceredigion",
-        "state_code": "CGN"
-      },
-      {
-        "name": "Conwy",
-        "state_code": "CWY"
-      },
-      {
-        "name": "Denbighshire",
-        "state_code": "DEN"
-      },
-      {
-        "name": "Flintshire",
-        "state_code": "FLN"
-      },
-      {
-        "name": "Gwynedd",
-        "state_code": "GWN"
-      },
-      {
-        "name": "Isle of Anglesey",
-        "state_code": "AGY"
-      },
-      {
-        "name": "Merthyr Tydfil",
-        "state_code": "MTY"
-      },
-      {
-        "name": "Monmouthshire",
-        "state_code": "MON"
-      },
-      {
-        "name": "Neath Port Talbot",
-        "state_code": "NTL"
-      },
-      {
-        "name": "Newport",
-        "state_code": "NWP"
-      },
-      {
-        "name": "Pembrokeshire",
-        "state_code": "PEM"
-      },
-      {
-        "name": "Powys",
-        "state_code": "POW"
-      },
-      {
-        "name": "Rhondda Cynon Taf",
-        "state_code": "RCT"
-      },
-      {
-        "name": "Swansea",
-        "state_code": "SWA"
-      },
-      {
-        "name": "Torfaen",
-        "state_code": "TOF"
-      },
-      {
-        "name": "Vale of Glamorgan",
-        "state_code": "VGL"
-      },
-      {
-        "name": "Wrexham",
-        "state_code": "WRX"
       }
     ]
   }
